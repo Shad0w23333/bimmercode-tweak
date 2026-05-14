@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# Build artifacts (single-arch slices) — only commit the fat BimmerCode.dylib
+src/BimmerCode-arm64.dylib
+src/BimmerCode-arm64e.dylib
+*.o
+*.obj
+
+# Backup / scratch
+*.bak
+*~
+.idea/
+.vscode/
+
+# Test / runtime
+/tmp/
+*.log
